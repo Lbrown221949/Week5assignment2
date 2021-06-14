@@ -72,4 +72,23 @@ input{
  /*mobile screen sizes*/
  @media screen and (max-width: 600px) {
 
+ .container{
+   display:grid;
+   grid-template-columns: repeat(1, 1fr);
+   max-width:1200px;
+   margin:100px auto auto 20px;
+   align-items: center;
+
+}
+.left{
+    color:#ffffff;
+    max-width: 350px;
+    padding:0 0 20px 0;
+    }
+
+ .left h1{ 
+    font-weight: 700;
+    padding:0px 20px 39px 0px;
+    font-size: 35px;
+ }
  }
